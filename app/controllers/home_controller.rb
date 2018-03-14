@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
-  require 'Time'
-  require 'Date'
+  
   def index
     time_start = Date.new(2016,8,22).to_time.to_f
     time_now = Time.now.to_i - time_start
